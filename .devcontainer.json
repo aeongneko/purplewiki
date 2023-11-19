@@ -1,0 +1,18 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/shyim/devcontainers-features/bun:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"oven.bun-vscode"
+			],
+			"settings": {
+				"files.autoSave": "afterDelay",
+				"editor.bracketPairColorization.enabled": false
+			}
+		}
+	},
+	"postCreateCommand": "bun install"
+}
