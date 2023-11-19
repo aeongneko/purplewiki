@@ -1,16 +1,13 @@
 import million from "million/compiler"
+import nextra from "nextra"
 
-const withNextra = require("nextra")({
+const withNextra = nextra({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.jsx"
 })
 
 /** @type {import("next").NextConfig} */
 const nextConfig = withNextra({
-  output: "export",
-  images: {
-    unoptimized: true
-  },
   reactStrictMode: true,
 })
 
