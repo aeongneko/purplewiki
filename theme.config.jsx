@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default {
-    docsRepositoryBase: "https://github.com/aeongone/purplewiki",
+    docsRepositoryBase: "https://github.com/aeongone/purplewiki/tree/main",
     useNextSeoProps() {
         return {
             titleTemplate: "%s – PurpleWiki"
