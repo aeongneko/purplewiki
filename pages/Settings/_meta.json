@@ -1,5 +1,5 @@
 {
-    "third-party": "Third Party",
+    "third-party-services": "Third Party Services",
     "chat": "Chat",
     "player": "Player",
     "adblock": "Adblock",
@@ -8,3 +8,4 @@
     "dev": "Dev",
     "ota": "OTA"
 }
+
